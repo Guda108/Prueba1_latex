@@ -1,0 +1,27 @@
+# Archivos temporales de LaTeX (se generan solos al compilar)
+*.aux
+*.log
+*.out
+*.toc
+*.lof
+*.lot
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+*.bbl
+*.blg
+*.bcf
+*.run.xml
+*.nav
+*.snm
+*.vrb
+_minted*/
+build/
+
+# El PDF de la raiz no se sube (cada quien lo genera; evita conflictos).
+# Si quieres compartir un PDF final, guardalo en una subcarpeta (por ejemplo entrega/).
+/*.pdf
+
+# Archivos del sistema
+.DS_Store
+Thumbs.db
